@@ -121,6 +121,7 @@ A WP instance object provides the following basic request methods:
 * `wp.users()...`: Get resources within the `/users` endpoints
 * `wp.types()...`: Get Post Type collections and objects from the `/types` endpoints
 * `wp.media()...`: Get Media collections and objects from the `/media` endpoints
+* `wp.comments()...`: Get Comments collections and objects from the `/comments` endpoints
 
 All of these methods return a customizable request object. The request object can be further refined with chaining methods, and/or sent to the server via `.get()`, `.post()`, `.put()`, `.delete()`, `.head()`, or `.then()`. (Not all endpoints support all methods; for example, you cannot POST or PUT records on `/types`, as these are defined in WordPress plugin or theme code.)
 
